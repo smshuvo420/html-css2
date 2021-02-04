@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+height: 200px;
+width: 100%;
+background-image: url('images/wallpaper-3031791.jpg');
+border-radius: 0px 0px 100px 100px;}
+h1{
+    color: yellow;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+}
+address{
+    float: right;
+    position: relative;
+    margin: 10px 10px 0px 0px;
+    color: yellow;
+}
+.menu{text-align: center;
+margin: 20px 30px 0px 0px;}
+.menu ul{}
+.menu ul li{display: inline-block;
+            margin:1px;
+            font-size: 20px;
+            padding:8px;
+        background:rgb(15, 15, 15);
+        
+        border-radius: 10px;
+    }
+    .menu ul li a{text-decoration: none;
+        color: #0af5c2de;}
+.menu ul li:hover{background: rgb(231, 20, 20);}
+.scrool{
+    color: yellow;
+    background: #000;
+    margin: 35px 40px 0px 40px;
+    border: 2px dotted red;
+    border-radius: 30px;
+    font-size: 20px;
+    
+}
+.user{
+    color: rgba(248, 15, 65, 0.808);
+    font-style: bold;
+    font-size: 20px;
+    text-align: center;
+}
+h3{
+    background: #000;
+    color: yellow;
+    padding: 15px;
+    border: 2px solid red;
+    margin-top: 2px;
+}
+input:focus{
+    background: rgb(11, 176, 241);
+    font-size: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+h4{
+    background: rgb(16, 223, 34);
+    border-radius: 5px;
+    position: relative;
+    float: center;
+    text-align: center;
+    margin: 10px 20px 0px 20px;
+    padding:10px ;
+    border: 2px solid rgb(255, 0, 0);
+}
+#about{
+    height: 100px;
+    width: 70%px;
+    border: 2px solid rgb(19, 18, 18);
+    color: yellowgreen;
+    overflow: scroll;
+    position: relative;
+    display: inline-block;
+}
+#gallery{ 
+    background: #000;
+color: rgb(190, 235, 27);
+padding: 12px;
+text-align: center;}
+/* Image gallery*/
+.gallery{
+    margin: 130px;
+}
+.gallery:hover{
+    transform: rotate3d(30deg );}
+
+    /* Double Hover item*/
+    .hh{background: rgb(31, 221, 63);
+        height: 300px;
+        width: 300px;
+    text-align: center;
+font-size: 30px;
+display: inline-block;
+float: left;}
+    .hh2{background: rgb(192, 168, 29);
+        height: 300px;
+        width: 300px;
+    display: inline-block;}
+        .hh:hover + .hh2{background: #000;}
+/* Footer item*/
+.footer-left{ background: #000;
+color: white;
+padding: 10px;
+margin-top: 10px;
+display: center;}
+/*Psedu Elemet*/
+h5{display: inline-block;}
+.psedu::after{
+    content:"Content";
+    color: tomato;
+}
+.psedu::before{
+    content: "Website";
+    color: rgb(236, 10, 115);
+}
+/*Transform*/
+.ttt{text-align: center;}
+.transform1{ margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background: rgb(28, 219, 203);
+    transform: rotate(45deg);}
+.transform2{margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background: rgb(28, 219, 203);
+    transform: skewY(20deg);}
+.transform3{margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background: rgb(28, 219, 203);
+    transform: scaleY(.5);}
+    /*child*/
+    .nth ol li:nth-child(2){
+        color: #ff0000;
+        font-size: 20px;
+    }
